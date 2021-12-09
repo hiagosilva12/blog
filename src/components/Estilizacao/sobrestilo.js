@@ -4,12 +4,23 @@ export const Header = styled.div`
   background: #191970;
 `;
 
-export const ContainerSobre = styled.div``;
+export const ContainerSobre = styled.div`
+  height: 36.2vw;
+`;
 export const ParagraphBlog = styled.li`
   display: flex;
   font-size: 1.33vw;
   text-decoration: none;
   color: white;
+  @media (max-width: 320px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5vw;
+  }
 `;
 
 export const ParagraphSobre = styled.li`
@@ -26,12 +37,30 @@ export const ParagraphSobre = styled.li`
   &:hover {
     background-position: 0 100%;
   }
+  @media (max-width: 320px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5vw;
+  }
 `;
 
 export const ParagraphProjetos = styled.li`
   display: flex;
   font-size: 1.33vw;
   color: white;
+  @media (max-width: 320px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5vw;
+  }
 `;
 
 export const titlesobre = styled.h1`
@@ -40,6 +69,15 @@ export const titlesobre = styled.h1`
   justify-content: flex-end;
   padding-right: 5vw;
   color: white;
+  @media (max-width: 320px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5vw;
+  }
 `;
 
 export const paragraphquemsoueu = styled.p`
@@ -47,6 +85,15 @@ export const paragraphquemsoueu = styled.p`
   padding: 1vw;
   font-size: 2vw;
   font-family: "Gwendolyn", cursive;
+  @media (max-width: 320px) {
+    font-size: 6vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5vw;
+  }
 `;
 
 export const Projetos = styled.button`
@@ -64,6 +111,15 @@ export const Projetos = styled.button`
   transition: background-position 275ms ease;
   &:hover {
     background-position: 0 100%;
+  }
+  @media (max-width: 320px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5vw;
   }
 `;
 

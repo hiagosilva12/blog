@@ -6,6 +6,18 @@ export const Header = styled.div`
   background: #191970;
 `;
 
+export const BtnDark = styled.button`
+  /* display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: red;
+  &::hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+    background-color: grey;
+  } */
+`;
+
 export const TitleHeader = styled.h1`
   display: flex;
   justify-content: flex-end;
@@ -119,6 +131,12 @@ export const ParagraphBlog = styled.li`
   @media (max-width: 320px) {
     font-size: 5vw;
   }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 768px) {
+    width: 10vw;
+  }
 `;
 
 export const ParagraphSobre = styled.li`
@@ -128,6 +146,9 @@ export const ParagraphSobre = styled.li`
   @media (max-width: 320px) {
     font-size: 5vw;
   }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+  }
 `;
 
 export const ParagraphProjetos = styled.li`
@@ -135,6 +156,9 @@ export const ParagraphProjetos = styled.li`
   font-size: 1.33vw;
   color: white;
   @media (max-width: 320px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 375px) {
     font-size: 5vw;
   }
 `;

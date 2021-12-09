@@ -2,16 +2,16 @@ import React from "react";
 
 import { graphql, useStaticQuery } from "gatsby";
 import { Link } from "gatsby";
-import "../../pages/site"
-import * as S from "./style"
+import "../../pages/site";
+import * as S from "./style";
 
 export function Header() {
   const data = useStaticQuery(graphql`
     query {
-        alldata {
+      alldata {
         headers {
           titleprincipal
-          logoheader{
+          logoheader {
             url
           }
           paragraphblog
@@ -21,12 +21,20 @@ export function Header() {
         }
       }
     }
-`)
+  `);
 
-  const { titleprincipal, logoheader, paragraphblog, paragraphsobre, paragraphprojetos, paragraphimg } = data.alldata.headers[0]
+  const {
+    titleprincipal,
+    logoheader,
+    paragraphblog,
+    paragraphsobre,
+    paragraphprojetos,
+    paragraphimg,
+  } = data.alldata.headers[0];
 
   return (
     <S.Header>
+      {/* <S.BtnDark>Dark</S.BtnDark> */}
       <S.TitleHeader>{titleprincipal}</S.TitleHeader>
       <S.BoxImg>
         <S.Img src={logoheader.url} alt="logo do blog" />
@@ -44,5 +52,5 @@ export function Header() {
         </Link>
       </S.List>
     </S.Header>
-  )
+  );
 }

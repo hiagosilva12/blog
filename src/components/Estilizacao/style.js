@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 53vw;
+  @media (max-width: 1024px) {
+    height: 113vw;
+  }
+  @media (max-width: 425px) {
+    height: 293vw;
+  }
 `;
 
 export const Header = styled.section`
@@ -10,12 +16,16 @@ export const Header = styled.section`
 `;
 
 export const LogoImg = styled.section`
-  width: 50vw;
+  width: 10vw;
   padding: 1vw;
 `;
 
 export const ImgLogo = styled.img`
   width: 3.191vw;
+  @media (max-width: 1024px) {
+    width: 15vw;
+    height: 15vw;
+  }
 `;
 
 export const TitleSite = styled.h1`
@@ -24,6 +34,12 @@ export const TitleSite = styled.h1`
   padding-right: 6vw;
   font-size: 2.66vw;
   color: white;
+  @media (max-width: 1024px) {
+    font-size: 2vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 4vw;
+  }
 `;
 
 export const List = styled.ul`
@@ -40,12 +56,18 @@ export const ParagraphBlog = styled.li`
   font-size: 1.33vw;
   text-decoration: none;
   color: white;
+  @media (max-width: 1024px) {
+    font-size: 5vw;
+  }
 `;
 
 export const ParagraphSobre = styled.li`
   display: flex;
   font-size: 1.33vw;
   color: white;
+  @media (max-width: 1024px) {
+    font-size: 5vw;
+  }
 `;
 
 export const ParagraphProjetos = styled.li`
@@ -61,6 +83,9 @@ export const ParagraphProjetos = styled.li`
   transition: background-position 275ms ease;
   &:hover {
     background-position: 0 100%;
+  }
+  @media (max-width: 1024px) {
+    font-size: 5vw;
   }
 `;
 
@@ -84,6 +109,15 @@ export const ThewitcherImg = styled.img`
     transition: 0.3s;
     transform: scale(1.1);
   }
+  @media (max-width: 1024px) {
+    padding: 3vw;
+    width: 45vw;
+    height: 25vw;
+  }
+  @media (max-width: 425px) {
+    width: 90vw;
+    height: 50vw;
+  }
 `;
 
 export const CresposImg = styled.img`
@@ -96,6 +130,15 @@ export const CresposImg = styled.img`
     cursor: pointer;
     transition: 0.3s;
     transform: scale(1.1);
+  }
+  @media (max-width: 1024px) {
+    padding: 2vw;
+    width: 45vw;
+    height: 25vw;
+  }
+  @media (max-width: 425px) {
+    width: 90vw;
+    height: 50vw;
   }
 `;
 
@@ -110,6 +153,15 @@ export const BeatImg = styled.img`
     transition: 0.3s;
     transform: scale(1.1);
   }
+  @media (max-width: 1024px) {
+    padding: 2vw;
+    width: 45vw;
+    height: 25vw;
+  }
+  @media (max-width: 425px) {
+    width: 90vw;
+    height: 50vw;
+  }
 `;
 
 export const FinnImg = styled.img`
@@ -122,6 +174,15 @@ export const FinnImg = styled.img`
     cursor: pointer;
     transition: 0.3s;
     transform: scale(1.1);
+  }
+  @media (max-width: 1024px) {
+    padding: 2vw;
+    width: 45vw;
+    height: 25vw;
+  }
+  @media (max-width: 425px) {
+    width: 90vw;
+    height: 50vw;
   }
 `;
 
@@ -136,5 +197,14 @@ export const CalculadoraImg = styled.img`
     cursor: pointer;
     transition: 0.3s;
     transform: scale(1.1);
+  }
+  @media (max-width: 1024px) {
+    padding: 2vw;
+    width: 45vw;
+    height: 25vw;
+  }
+  @media (max-width: 425px) {
+    width: 90vw;
+    height: 50vw;
   }
 `;
