@@ -5,20 +5,39 @@ export const Header = styled.div`
 `;
 
 export const ContainerSobre = styled.div`
-  height: 36.2vw;
+  height: 60vw;
+  background-color: #87cefa;
+  @media (max-width: 1024px) {
+    height: 140vw;
+  }
+  @media (max-width: 768px) {
+    height: 150vw;
+  }
+  @media (max-width: 425px) {
+    height: 277vw;
+  }
+  @media (max-width: 375px) {
+    height: 390vw;
+  }
+  @media (max-width: 320px) {
+    height: 550vw;
+  }
 `;
 export const ParagraphBlog = styled.li`
   display: flex;
   font-size: 1.33vw;
   text-decoration: none;
   color: white;
-  @media (max-width: 320px) {
+  @media (max-width: 1024px) {
+    font-size: 4vw;
+  }
+  @media (max-width: 425px) {
     font-size: 5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 320px) {
     font-size: 5vw;
   }
 `;
@@ -37,13 +56,16 @@ export const ParagraphSobre = styled.li`
   &:hover {
     background-position: 0 100%;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 1024px) {
+    font-size: 4vw;
+  }
+  @media (max-width: 425px) {
     font-size: 5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 320px) {
     font-size: 5vw;
   }
 `;
@@ -52,13 +74,16 @@ export const ParagraphProjetos = styled.li`
   display: flex;
   font-size: 1.33vw;
   color: white;
-  @media (max-width: 320px) {
+  @media (max-width: 1024px) {
+    font-size: 4vw;
+  }
+  @media (max-width: 425px) {
     font-size: 5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 320px) {
     font-size: 5vw;
   }
 `;
@@ -69,30 +94,36 @@ export const titlesobre = styled.h1`
   justify-content: flex-end;
   padding-right: 5vw;
   color: white;
-  @media (max-width: 320px) {
+  @media (max-width: 1024px) {
+    font-size: 5vw;
+  }
+  @media (max-width: 425px) {
     font-size: 5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 320px) {
     font-size: 5vw;
   }
 `;
 
 export const paragraphquemsoueu = styled.p`
   display: flex;
-  padding: 1vw;
+  padding: 4vw;
   font-size: 2vw;
-  font-family: "Gwendolyn", cursive;
-  @media (max-width: 320px) {
-    font-size: 6vw;
-  }
-  @media (max-width: 375px) {
-    font-size: 5vw;
+  font-family: "Lato", sans-serif;
+  @media (max-width: 1024px) {
+    font-size: 3.5vw;
   }
   @media (max-width: 425px) {
     font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 6vw;
+  }
+  @media (max-width: 320px) {
+    font-size: 7vw;
   }
 `;
 
@@ -112,13 +143,16 @@ export const Projetos = styled.button`
   &:hover {
     background-position: 0 100%;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 1024px) {
+    font-size: 4vw;
+  }
+  @media (max-width: 425px) {
     font-size: 5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 320px) {
     font-size: 5vw;
   }
 `;

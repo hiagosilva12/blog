@@ -50,10 +50,10 @@ export default function Sobre() {
       </S.Header>
       <S.ContainerSobre>
         <S.paragraphquemsoueu>{paragraphquemsoueu}</S.paragraphquemsoueu>
+        <S.Projetos>
+          <a href="/site"> Projetos{site}</a>{" "}
+        </S.Projetos>
       </S.ContainerSobre>
-      <S.Projetos>
-        <a href="/site"> Projetos{site}</a>{" "}
-      </S.Projetos>
       <Footer />
     </>
   );

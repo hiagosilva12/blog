@@ -1,15 +1,48 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  height: 22.1vw;
+  height: 20.9vw;
+  font-family: "Corinthia", cursive;
+  font-family: "Lato", sans-serif;
+  @media (max-width: 1440px) {
+    height: 30vw;
+  }
+  @media (max-width: 1024px) {
+    height: 37vw;
+  }
+  @media (max-width: 768px) {
+    height: 59vw;
+  }
+  @media (max-width: 425px) {
+    height: 120vw;
+  }
+  @media (max-width: 375px) {
+    height: 149vw;
+  }
+  @media (max-width: 320px) {
+    height: 179vw;
+  }
 `;
 
 export const TitleMain = styled.h1`
-  color: #0000cd;
+  color: black;
   font-size: 45px;
   padding: 3rem;
-  @media (max-width: 768px) {
-    color: pink;
+  animation: blink 1s steps(1, end) infinite;
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+      color: red;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media (max-width: 320px) {
+    font-size: 11vw;
   }
 `;
 

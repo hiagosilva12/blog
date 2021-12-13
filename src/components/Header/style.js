@@ -128,14 +128,20 @@ export const ParagraphBlog = styled.li`
   &:hover {
     background-position: 0 100%;
   }
-  @media (max-width: 320px) {
-    font-size: 5vw;
+  @media (max-width: 1440px) {
+    font-size: 3vw;
   }
-  @media (max-width: 375px) {
-    font-size: 5vw;
+  @media (max-width: 1024px) {
+    font-size: 4vw;
   }
   @media (max-width: 768px) {
     width: 10vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5.5vw;
+  }
+  @media (max-width: 320px) {
+    font-size: 6vw;
   }
 `;
 
@@ -143,11 +149,20 @@ export const ParagraphSobre = styled.li`
   display: flex;
   font-size: 1.33vw;
   color: white;
-  @media (max-width: 320px) {
-    font-size: 5vw;
+  @media (max-width: 1440px) {
+    font-size: 3vw;
+  }
+  @media (max-width: 1024px) {
+    font-size: 4vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5.5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
+  }
+  @media (max-width: 320px) {
+    font-size: 6vw;
   }
 `;
 
@@ -155,10 +170,19 @@ export const ParagraphProjetos = styled.li`
   display: flex;
   font-size: 1.33vw;
   color: white;
-  @media (max-width: 320px) {
-    font-size: 5vw;
+  @media (max-width: 1440px) {
+    font-size: 3vw;
+  }
+  @media (max-width: 1024px) {
+    font-size: 4vw;
+  }
+  @media (max-width: 425px) {
+    font-size: 5.5vw;
   }
   @media (max-width: 375px) {
     font-size: 5vw;
+  }
+  @media (max-width: 320px) {
+    font-size: 6vw;
   }
 `;
