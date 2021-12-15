@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Main = styled.div`
   height: 20.92vw;
   font-family: "Corinthia", cursive;
-  font-family: "Lato", sans-serif;
   @media (max-width: 1440px) {
     height: 30vw;
   }

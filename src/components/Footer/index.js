@@ -43,7 +43,7 @@ export function Footer() {
         <a href="https://github.com/hiagosilva12">
           <S.IconGithub src={icongithub.url} alt="Icone do Github" />
         </a>
-        <a href="https://www.instagram.com/hiaguinsilva/">
+        <a href="https://www.instagram.com/dev_hiago/">
           <S.IconInsta src={iconinstagram.url} alt="Icone do Instagram" />
         </a>
       </S.Section>
