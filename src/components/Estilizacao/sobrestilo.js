@@ -5,7 +5,7 @@ export const Header = styled.div`
 `;
 
 export const ContainerSobre = styled.div`
-  height: 60vw;
+  height: 59vw;
   background-color: #87cefa;
   @media (max-width: 1024px) {
     height: 140vw;

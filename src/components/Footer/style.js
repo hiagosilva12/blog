@@ -54,12 +54,12 @@ export const IconLinkedin = styled.img`
   position: relative;
   right: 0.7vw;
   @media (max-width: 320px) {
-    width: 20vw;
-    height: 20vw;
-  }
-  @media (max-width: 768px) {
     width: 10vw;
     height: 10vw;
+  }
+  @media (max-width: 768px) {
+    width: 8vw;
+    height: 8vw;
   }
 `;
 
@@ -73,8 +73,8 @@ export const IconGithub = styled.img`
     height: 10vw;
   }
   @media (max-width: 768px) {
-    width: 5vw;
-    height: 5vw;
+    width: 6vw;
+    height: 6vw;
   }
 `;
 
